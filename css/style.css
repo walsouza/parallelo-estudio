@@ -1,0 +1,437 @@
+/* Estilos Gerais */
+
+body {
+	font-family: Roboto, Helvetica, sans-serif;
+    background: #000;
+}
+
+p {
+	font-family: Roboto, "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 20px;
+	color: #fff;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.mob {
+    display: block;
+}
+
+
+/* Header */
+
+#origamid-menu {
+	visibility: hidden;
+	position: absolute;
+	background: black;
+	width: auto;
+	max-width: 280px;
+	padding: 20px;
+	right: 0;
+	top: 50px;
+	text-align: left;
+	opacity: 0;
+	transform: translate(-20px, 0px);
+	box-shadow: 0 2px 1px 0 rgba(0,0,0,.4);
+	z-index: 999;
+}
+
+#origamid-menu.active {
+  visibility: visible;
+	opacity: 1;
+	transform: translate(0px, 0px);
+	transition: .3s ease;
+}
+
+#origamid-menu li {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	border-top: 2px solid;
+}
+
+#origamid-menu li:last-of-type {
+	border-bottom: 2px solid;
+}
+
+#origamid-menu li a {
+	display: block;
+	float: none;
+	padding: 10px;
+	margin: 0px;
+	border: none;
+	min-width: 100%;
+}
+
+#origamid-menu li a:hover {
+	color: black;
+}
+
+/* Hamburger */
+#origamid-icon {
+	display: block;
+	float: right;
+	width: 40px;
+	height: 30px;
+	padding: 5px 0;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+#origamid-icon::before, #origamid-icon::after {
+	content: '';
+	display: block;
+	height: 4px;
+	transition: .3s;
+}
+
+#origamid-icon::before {
+	background: white;
+	margin-bottom: 8px;
+}
+
+#origamid-icon::after {
+	box-shadow: 0 4px 0 0 white, 0 -4px 0 0 white;
+}
+
+#origamid-icon.active::before, #origamid-icon.active::after {
+	width: 80%;
+	background: white;
+	box-shadow: none;
+}
+
+#origamid-icon.active::before {
+	transform: rotate(45deg) translate(7px, 4px);
+}
+
+#origamid-icon.active::after {
+	transform: rotate(-225deg) translate(-4px, 1px);
+}
+/* Final Hamburger */
+
+
+nav {
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+    font-weight: 400;
+	text-transform: uppercase;
+}
+
+.opacidade {
+  width: 100%;
+  background-color: rgba(39,43,50,0.5);
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-weight: 400;
+	letter-spacing: .1em;
+	font-size: 16px;
+	padding: 20px 45px;
+	transition: all .3s ease;
+}
+
+/*Lembrar de no resposivo retirar bg*/
+
+a:hover {
+	background: #0a4b85;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	a:hover {
+	color: #fff;
+	padding: 5px 20px;
+	background: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	a:hover {
+	color: #fff;
+	padding: 5px 20px;
+	background: none;
+	}
+}
+
+
+
+header {
+	background: none;
+}
+
+header::after, header::before {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+header img {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    left: 0;
+}
+
+/* Introdução */
+
+.introducao {
+	max-width: 100%;
+	height: 545px;
+	background: url("../img/banner.png") no-repeat;
+	background-size: cover;
+	text-align: center;
+    background-attachment: fixed;
+}
+
+.logo_banner {
+  max-width: 402px;
+  height: 301px;
+  background: url("../img/logo-banner.png") no-repeat;
+  margin: 60px auto;
+}
+
+.portfolio {
+  max-width: 100%;
+  height: 655px;
+  background: url("../img/bg-portfolio.png") no-repeat;
+  background-size: cover;
+}
+
+.portfolio h2{
+  font-size: 72px;
+  color: #fff;
+  font-weight: 600;
+  font-family: Rajdhani;
+  padding-top: 260px;
+}
+
+.portfolio p{
+  max-width: 250px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.portfolio a{
+  padding: 16px 12px;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  
+}
+
+.portfolio a:hover{
+  border: 1px solid #0a4b85;
+}
+
+.img-port {
+  width: 544px;
+  height: 442px;
+  background: url("../img/portfolio.png") no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+.projdestac {
+	max-width: 100%;
+	margin: 0 auto;
+    background: #000;
+	padding: 0px;
+	position: relative;
+}
+
+.projdestac:after, .projdestac:before {
+	content: " ";
+	display: table;
+}
+
+.projdestac:after {
+	clear: both;
+}
+
+.projdestac h2 {
+  font-size: 48px;
+  font-family: Rajdhani;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase; 
+}
+
+/*.projdestac img {
+  display: inline-block;
+  width: 33.3%;
+  height: auto;
+  float: left;
+  cursor: pointer;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.projdestac img:hover{
+  background-color: rgba(10,75,133,0.5);
+}*/
+
+.imgproj {
+  width: 33.3%;
+  height: auto;
+  float: left;
+  cursor: pointer;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.image {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.imgproj:hover .overlay{
+  opacity: 0.8;
+}
+
+.imgproj-text {
+  color: #fff;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.sobre {
+  max-width: 100%;
+  height: 658px;
+  background: url("../img/bg-sobre.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.sobre h2 {
+  font-size: 72px;
+  font-family: Rajdhani;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.sobre p{
+  max-width: 890px;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 60px;
+  margin: 0 auto;
+}
+
+.sobre a{
+  padding: 16px 12px;
+  background: #1a1b3c;
+  text-transform: uppercase;
+  transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  
+}
+
+.sobre a:hover{
+  background: #0a4b85;
+}
+
+.rodape {
+  max-width: 100%;
+  height: 129px;
+  background: url("../img/bg-rodape.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.rodape img {
+  display: inline-block;
+  width: 56px;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.rodape p {
+  font-size: 18px;
+  color: #fff;
+}
+
+.zoom {
+	overflow: hidden;
+	display: inline-block;
+	margin: 5px;
+}
+
+.zoom img {
+	max-width: 100%;
+	cursor: pointer;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/*Animaçao*/
+
+.anime {
+	opacity: 0;
+	transform: translate3d(0,-100px,0);
+	transition: all 1.0s;
+}
+.anime-2 {
+	opacity: 0;
+	transform: translate3d(0,-200px,0);
+	transition: all 1.0s;
+}
+.anime-3 {
+	opacity: 0;
+	transform: translate3d(0,-300px,0);
+	transition: all 1.0s;
+}
+
+.anime-start {
+	opacity: 1;
+	transform: translate3d(0,0,0);
+}

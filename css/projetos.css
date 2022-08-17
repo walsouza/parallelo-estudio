@@ -1,0 +1,551 @@
+/* Estilos Gerais */
+
+body {
+    background: #fff;
+}
+
+/*Parte Interna Portfólio*/
+
+.projeto {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	position: relative;
+}
+
+.projeto:after, .projeto:before {
+	content: " ";
+	display: table;
+}
+
+.projeto:after {
+	clear: both;
+}
+
+.descricao {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.texto-desc {
+  max-width: 570px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.texto-telecine {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.descricao img {
+  margin: 0 auto;
+}
+
+.descricao h2 {
+  font-size: 36px;
+  letter-spacing: 0;
+}
+
+.descricao h3 {
+  font-size: 55px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  letter-spacing: 0;
+}
+
+.descricao p {
+  font-size: 18px;
+  color: #000;
+  letter-spacing: 0;
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menubaixo {
+  width: 100%;
+  background: #000;
+  text-align: center;
+  padding: 20px 0;
+}
+.menubaixo img {
+  display: inline;
+}
+.menubaixo span {
+  font-size: 90px;
+  display: inline-block;
+  position: relative;
+  margin-left: 30px;
+  margin-right: 30px;
+  top: -8px;
+  color: #808080;
+  transition: all 0.5s;
+}
+
+.menubaixo p {
+  font-size: 18px;
+  letter-spacing: 0;
+  color: #808080;
+  font-family: 'Rajdhani', sans-serif;
+  transition: all 0.5s;
+}
+
+.linkprox a {
+  font-size: 18px;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #808080;
+  transition: all 0.5s;
+}
+
+.linkprox p:hover, .linkprox a{
+  background: none;
+  color: #fff;
+}
+.linkmenubaixo a {
+  display: inline-block;
+  padding: 0;
+  color: #808080;
+  transition: all 0.5s;
+}
+.linkmenubaixo span:hover, .linkmenubaixo a{
+  background: none;
+  color: #fff;
+}
+
+/*AMPLA*/
+
+.dica-1, .dica-2, .dica-3 {
+  width: 100%;
+  height: 1152px;
+  background: url("../img/ampla/donaclaudia-1max.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.dica-2 {
+  height: 1209px;
+  background: url("../img/ampla/donaclaudia-2max.jpg") no-repeat center;
+}
+.dica-3 {
+  height: 1226px;
+  background: url("../img/ampla/donaclaudia-3max.jpg") no-repeat center;
+}
+.rascunho {
+  width: 100%;
+  height: 1015px;
+  background: url("../img/ampla/projeto-inicio.jpg") no-repeat center;
+  background-size: cover;
+}
+.dica {
+  width: 100%;
+  height: 445px;
+  background: url("../img/ampla/dicasampla.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/*FIRJAN*/
+
+.cena-1, .cena-2, .cena-rascunho {
+  width: 100%;
+  height: 1550px;
+  background: url("../img/firjan/cena-1.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+.cena-2 {
+  background: url("../img/firjan/cena-2.jpg") no-repeat center;
+  background-size: cover;
+}
+.cena-rascunho {
+  background: url("../img/firjan/rascunho.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: 60px;
+}
+.casasegura-1, .casasegura-2, .casasegura-3, .casasegura-4, .casasegura-5, .casasegura-6  {
+  width: 100%;
+  height: 842px;
+  background: url("../img/firjan/casaseguranca-1.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.casasegura-2 {
+  height: 630px;
+  background: url("../img/firjan/casaseguranca-2.jpg") no-repeat center;
+  background-size: cover;
+}
+.casasegura-3 {
+  height: 962px;
+  background: url("../img/firjan/casaseguranca-3.jpg") no-repeat center;
+  background-size: cover;
+}
+.casasegura-4 {
+  height: 816px;
+  background: url("../img/firjan/casaseguranca-4.jpg") no-repeat center;
+  background-size: cover;
+}
+.casasegura-5 {
+  height: 996px;
+  background: url("../img/firjan/casaseguranca-5.jpg") no-repeat center;
+  background-size: cover;
+}
+.casasegura-6 {
+  height: 716px;
+  background: url("../img/firjan/casaseguranca-6.jpg") no-repeat center;
+  background-size: cover;
+}
+.casasegura-7 {
+  height: 682px;
+  background: url("../img/firjan/casaseguranca-7.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/*BALALA*/
+
+.balala-1, .balala-2, .balala-3, .balala-4, .balala-5, .balala-6  {
+  width: 100%;
+  height: 537px;
+  background: url("../img/balala/balala-header.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.balala-2 {
+  height: 1363px;
+  background: url("../img/balala/balala-2.jpg") no-repeat center;
+  background-size: cover;
+}
+.balala-3 {
+  height: 1363px;
+  background: url("../img/balala/balala-3.jpg") no-repeat center;
+  background-size: cover;
+}
+.balala-4 {
+  height: 1363px;
+  background: url("../img/balala/balala-4.jpg") no-repeat center;
+  background-size: cover;
+}
+.balala-5 {
+  height: 1299px;
+  background: url("../img/balala/balala-5.jpg") no-repeat center;
+  background-size: cover;
+}
+.balala-6 {
+  height: 1588px;
+  background: url("../img/balala/balala-6.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/*BRASKEM*/
+
+.braskem-1, .braskem-2 {
+  width: 100%;
+  height: 2410px;
+  background: url("../img/braskem/braskem-1.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.braskem-2 {
+  height: 1279px;
+  background: url("../img/braskem/braskem-2.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/*SESI*/
+
+.coloniaferias-1, .coloniaferias-2, .coloniaferias-3{
+  width: 100%;
+  height: 1706px;
+  background: url("../img/sesi/sesi-coloniaferias-1.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+.coloniaferias-2 {
+  height: 1359px;
+  background: url("../img/sesi/sesi-coloniaferias-2.jpg") no-repeat center;
+  background-size: cover;
+}
+.coloniaferias-3 {
+  max-width: 1590px;
+  height: 1072px;
+  background: url("../img/sesi/sesi-coloniaferias-3.jpg") no-repeat center;
+  background-size: cover;
+  margin: 60px auto;
+}
+
+/*FREAK*/
+
+.estampa-1, .estampa-2, .estampa-3, .estampa-4, .estampa-5{
+  width: 100%;
+  height: 2405px;
+  background: url("../img/freak/estampa-1.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+.estampa-2 {
+  height: 1209px;
+  background: url("../img/freak/estampa-2.jpg") no-repeat center;
+  background-size: cover;
+}
+.estampa-3 {
+  height: 1213px;
+  background: url("../img/freak/estampa-3.jpg") no-repeat center;
+  background-size: cover;
+}
+.estampa-4 {
+  height: 1209px;
+  background: url("../img/freak/estampa-4.jpg") no-repeat center;
+  background-size: cover;
+}
+.estampa-5 {
+  height: 1211px;
+  background: url("../img/freak/estampa-5.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/*GE*/
+
+.gequadrinhos-1, .gequadrinhos-2, .gequadrinhos-3, .gequadrinhos-4{
+  width: 100%;
+  height: 1364px;
+  background: url("../img/ge/gequadrinhos-1.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.gequadrinhos-2 {
+  height: 1358px;
+  background: url("../img/ge/gequadrinhos-2.jpg") no-repeat center;
+  background-size: cover;
+}
+.gequadrinhos-3 {
+  height: 670px;
+  background: url("../img/ge/gequadrinhos-3.jpg") no-repeat center;
+  background-size: cover;
+}
+.gequadrinhos-4 {
+  height: 670px;
+  background: url("../img/ge/gequadrinhos-4.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/*IBM*/
+
+.ibm-1, .ibm-2, .ibm-3{
+  width: 100%;
+  height: 2727px;
+  background: url("../img/ibm/ibmilustracao-1.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+.ibm-2 {
+  height: 1280px;
+  background: url("../img/ibm/ibmilustracao-2.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+.ibm-3 {
+  height: 907px;
+  background: url("../img/ibm/ibmilustracao-3.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+
+/*INVEPAR*/
+
+.invepar-1, .invepar-2 {
+  width: 100%;
+  height: 2628px;
+  background: url("../img/invepar/quadrinhos-1.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+.invepar-2 {
+  height: 2668px;
+  background: url("../img/invepar/quadrinhos-2.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+
+/*NATURA*/
+
+.natura-1, .natura-2, .natura-3{
+  width: 100%;
+  height: 1288px;
+  background: url("../img/natura/natura-1.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+.natura-2 {
+  height: 854px;
+  background: url("../img/natura/natura-2.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+.natura-3 {
+  height: 1921px;
+  background: url("../img/natura/natura-3.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+
+/*PONTOFRIO*/
+
+.pontofrio-1, .pontofrio-2, .pontofrio-3, .pontofrio-4{
+  width: 100%;
+  height: 745px;
+  background: url("../img/pontofrio/pontofrio-1.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+.pontofrio-2 {
+  height: 961px;
+  background: url("../img/pontofrio/pontofrio-2.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+.pontofrio-3 {
+  height: 1262px;
+  background: url("../img/pontofrio/pontofrio-3.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+.pontofrio-4 {
+  height: 355px;
+  background: url("../img/pontofrio/pontofrio-4.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+
+/*RAIZEN*/
+
+.raizen-1, .raizen-2, .raizen-3, .raizen-4, .raizen-5{
+  width: 100%;
+  height: 1358px;
+  background: url("../img/raizen/raizen-1.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+.raizen-2 {
+  height: 1361px;
+  background: url("../img/raizen/raizen-2.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+.raizen-3 {
+  height: 1358px;
+  background: url("../img/raizen/raizen-3.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+.raizen-4 {
+  height: 1364px;
+  background: url("../img/raizen/raizen-4.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+.raizen-5 {
+  height: 1362px;
+  background: url("../img/raizen/raizen-5.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+
+/*TELECINEZONE*/
+
+.telecinezone-1, .telecinezone-2, .telecinezone-3, .telecinezone-4, .telecinezone-5, .telecinezone-6, .telecinezone-7{
+  width: 100%;
+  height: 655px;
+  background: url("../img/telecinezone/telecinezone-1.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+.telecinezone-2 {
+  height: 722px;
+  background: url("../img/telecinezone/telecinezone-2.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+.telecinezone-3 {
+  height: 1464px;
+  background: url("../img/telecinezone/telecinezone-3.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+.telecinezone-4 {
+  height: 655px;
+  background: url("../img/telecinezone/telecinezone-4.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+.telecinezone-5 {
+  height: 728px;
+  background: url("../img/telecinezone/telecinezone-5.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+.telecinezone-6 {
+  height: 655px;
+  background: url("../img/telecinezone/telecinezone-6.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+.telecinezone-7 {
+  height: 1422px;
+  background: url("../img/telecinezone/telecinezone-7.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+
+/*WALMART*/
+
+.walmart-1, .walmart-2, .walmart-3, .walmart-4, .walmart-5, .walmart-6{
+  width: 100%;
+  height: 556px;
+  background: url("../img/walmart/walmart-1.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+.walmart-2 {
+  height: 691px;
+  background: url("../img/walmart/walmart-2.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+.walmart-3 {
+  height: 992px;
+  background: url("../img/walmart/walmart-3.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+.walmart-4 {
+  height: 797px;
+  background: url("../img/walmart/walmart-4.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+.walmart-5 {
+  height: 655px;
+  background: url("../img/walmart/walmart-5.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+.walmart-6 {
+  height: 504px;
+  background: url("../img/walmart/walmart-6.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 0;
+}
+

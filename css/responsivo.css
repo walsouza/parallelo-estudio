@@ -1,0 +1,115 @@
+/*Estilo para tablets-pro*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+	width: 880px;
+  } 
+}
+
+/*Estilo para tablets*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .portfolio {
+    width: 100%;
+    height: 555px;
+    background-size: cover;
+    padding-left: 80px;
+  }
+  .img-port {
+    width: 300px;
+    height: 289px;
+    background: url("../img/portfolio-mob.png") no-repeat;
+    }
+  .portfolio h2{
+    font-size: 42px;
+    text-align: left;
+    padding-top: 160px;
+  }
+  .portfolio p {
+    margin: 0 auto;
+  }
+  .mob {
+    display: none;
+  }
+
+} /* Final do estilo para tablets */
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 767px) {
+  
+  .introducao {
+    max-width: 100%;
+	height: 428px;
+	background: url("../img/banner-mobille.jpg") no-repeat center;
+	background-size: cover;
+  }
+  .mob {
+    display: none;
+  }
+  .logo_banner {
+    max-width: 234px;
+    height: 175px;
+    background: url("../img/logo-banner-mob.png") no-repeat;
+  }
+  .img-port {
+    width: 300px;
+    height: 289px;
+    background: url("../img/portfolio-mob.png") no-repeat;
+    margin: 30px auto;
+    }
+  .portfolio h2{
+    font-size: 42px;
+    text-align: center;
+    padding-top: 0;
+  }
+  .portfolio p {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .portfolio a {
+    margin-left: 26%;
+  }
+  .projdestac h2 {
+    font-size: 25px; 
+  }
+  .imgproj {
+	  width: 50%;
+  }
+  .projdestac img {
+    width: 100%;
+    height: 187px;
+  }
+  .sobre h2 {
+    font-size: 42px;
+    padding-top: 60px;
+  }
+  .sobre p {
+    font-size: 16px;
+  }
+  .rodape img {
+    width: 40px;
+  }
+  .rodape p {
+    font-size: 14px;
+    color: #fff;
+  }
+  .anime {
+	opacity: 0;
+	transform: translate3d(0,0,0);
+	transition: all 1.0s;
+	}
+	.anime-2 {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+		transition: all 1.0s;
+	}
+	.anime-3 {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+		transition: all 1.0s;
+	}
+
+	.anime-start {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+	}
+  
+} /* Final do estilo para smartphone */
